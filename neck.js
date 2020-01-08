@@ -20,10 +20,11 @@ function neck()
     
     this.display=function()
     {
+       fill(255,255,0);
         ellipse(mouseX,this.y,this.radius);
         
         arc(mouseX, 370, 100, 100, 0,180);
-        fill(255,255,0);
+        
         line(this.x,200,this.x,500);
     }
 }
