@@ -19,12 +19,13 @@ function setup() {
     ///leg.x=body.x;
     
    nec.downhead();
-    
-    
-     strokeWeight(20);
-    fill(255,255,0);
+   fill(255,255,0);
     text("Press UP and DOWN arrow to see the magic",50,100);
-    //line(nec.postion.x,nec.postion.y,body.position.x,body.position.y);
+     strokeWeight(5);
+    
+    stroke(255,255,0);
+    
+    line(mouseX,100,mouseX,300);
     nec.display();
     drawSprites();
     
